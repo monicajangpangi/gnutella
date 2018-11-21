@@ -1,0 +1,9 @@
+commands to be used inside user interface
+connect [host] [port] - connects to given host and port.
+join - send join message to connected node.
+ping - send ping message to the connected node.
+query [key] - send query with given key value.
+bye -  send bye message and close the socket connection.
+
+Header format: 
+(version, ttl, msg_type, reserved, org_port, length, org_ip, msg_id)
